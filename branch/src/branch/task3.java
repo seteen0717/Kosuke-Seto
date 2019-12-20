@@ -8,12 +8,12 @@ public class task3 {
 		// TODO 自動生成されたメソッド・スタブ
 		System.out.println("数字を入力してください");
 		Scanner sc = new Scanner(System.in);
-		int Num = sc.nextInt();
-		if(Num >0) {
+		int num = sc.nextInt();
+		if(num > 0) {
 			System.out.println("入力された数字は正の数です。");
-		}else if(Num < 0) {
+		} else if(num < 0) {
 			System.out.println("入力された数字は負の数です。");
-		}else {
+		} else {
 			System.out.println("入力された数字は0です。");
 		}
 		sc.close();

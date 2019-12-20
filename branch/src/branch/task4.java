@@ -11,14 +11,16 @@ public class task4 {
 	    int numB = sc.nextInt();
 	    System.out.println("numA：" + numA);
 	    System.out.println("numB：" + numB);
-	    if(numA % numB == 0 && numA > 0 && numB > 0) {
-	    	System.out.println("numBはnumAの約数です");
-	    }else if(numA % numB != 0 && numA > 0 && numB > 0) {
-	    	System.out.println("numBはnumAの約数ではありません");
-	    }else {
-	    	System.out.println("正の整数を入力してください");
+	    if(numA <= 0 || numB <= 0){
+	        System.out.println("正の整数を入力してください");
+	    } else {
+	        if(numA % numB == 0) {
+	        	System.out.println("numBはnumAの約数です");
+	        } else {
+	        	System.out.println("numBはnumAの約数ではありません");
+	        }
+
 	    }
 	    sc.close();
-	}
-
+    }
 }
