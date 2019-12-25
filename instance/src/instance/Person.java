@@ -1,8 +1,8 @@
 package instance;
 
 public class Person {
-	String name = "世戸 康介";
-	int age = 30;
+	String name ;
+	int age ;
 
 	public void myProfile() {
 		System.out.println("私の名前は" + this.name + "です");
