@@ -15,8 +15,7 @@ public class task2 {
 	    	sum += i;
 	        form = form + " + " + i;
 	        i++;
-	    }
-	    while(i <= num) ;
+	    } while(i <= num) ;
 	    System.out.println(form + " = " + sum);
 	    sc.close();
 	}

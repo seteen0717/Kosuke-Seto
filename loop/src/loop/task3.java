@@ -5,13 +5,12 @@ public class task3 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
+		System.out.print("数字を入力してください：");
 		Scanner sc = new Scanner(System.in);
 	    long num = sc.nextLong();
-	    System.out.println("数字を入力してください：" + num);
-	    int i = 1;
 	    int count = 0;
-	    while(i <= num) {
-	    	i *= 10;
+	    while(num > 0) {
+	    	num /= 10;
 	    	count++;
 	    }
 	    System.out.println("桁数：" + count);
