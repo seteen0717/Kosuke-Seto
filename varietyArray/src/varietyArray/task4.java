@@ -19,14 +19,16 @@ public class task4 {
 			}
 		}
 		HashMap<String, ArrayList<Integer>> naturalNumbers = new HashMap<>();
-		naturalNumbers.put("奇数", oddNumbers);
-		naturalNumbers.put("偶数", evenNumbers);
-
+		naturalNumbers.put("奇数：", oddNumbers);
+		naturalNumbers.put("偶数：", evenNumbers);
+		/*
 		for(HashMap.Entry<String, ArrayList<Integer>> natural : naturalNumbers.entrySet()) {
 			System.out.print(natural.getKey());
 			System.out.print(":");
 			System.out.println(natural.getValue());
 		}
+		*/
+		System.out.print(naturalNumbers);
 	}
 
 }
