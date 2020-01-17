@@ -27,8 +27,7 @@ public class HelloServlet4 extends HttpServlet {
 		out.println("<p>↓占い結果↓</p>");
 		out.println("<h1>" + array[i] + "</h1>");
 		HtmlTemplate.footer(out);
-		out.println("</body>");
-		out.println("</html>");
+
 	}
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
