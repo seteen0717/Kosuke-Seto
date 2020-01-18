@@ -4,11 +4,12 @@ public class Dog extends Animal {
 	double weight;
 
 	public Dog(String name, int age, double weight) {
-		this.name = name;
-		this.age = age;
+		super(name, age);
 		this.weight = weight;
+	}
+	public void dogProfile() {
 		System.out.println("名前；" + this.name);
-		System.out.println("年齢：" + this.age + "歳");
+		System.out.println("年齢：" + this.age);
 		System.out.println("体重：" + this.weight + "kg");
 	}
 

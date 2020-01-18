@@ -3,6 +3,15 @@ package orientation;
 public class Main {
 
 	public static void main(String[] args) {
+		/*Person person = new Person("Bob", 20);
+		Person person1 = new Person();
+		person.myProfile();
+
+		person.setName("Seto");
+		System.out.println(person.getName());
+		person.myProfile();
+		*/
+
 		System.out.println("インスタンスを生成していない状態");
 		System.out.println(Person.wallet);
 
@@ -18,12 +27,11 @@ public class Main {
 		System.out.println(Person.wallet);
 
 		Dog dog = new Dog("pochi", 5, 12.3);
+		dog.dogProfile();
 		dog.run();
 		Animal animal = new Animal();
 		animal.sleep();
 		dog.sleep();
 
-
 	}
-
 }
